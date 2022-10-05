@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#main{
+  background-color: green;
+}
+#main>#box01{
+  background-color: yellow;
+  width: 1850px;
+  margin: 0 auto;
+  display: flex;
+}
+#box01>.banner{
+  width: 300px;
+}
+#box01>.banner>dt{
+}
+#box01>.banner>dt>img{
+  width: 100%;
+}
+#box01>.banner>dd{
+  padding: 20px;
+  border: 1px solid #999;
+}
+
+#box01>div{}
+#box01>div>figure{}
+#box01>div>figure>img{
+  width: 300px;
+}
